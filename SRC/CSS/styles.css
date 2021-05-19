@@ -1,0 +1,254 @@
+/*
+Farben:
+Gelb: #FBF333
+*/
+
+@font-face {
+  font-family: sans-serif;
+  src: url(./FONTS/MaisonNeue-Medium.ttf) format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+#bild {
+  background-image: url("../IMG/banner.png");
+  background-size: cover;
+  height: 1024px;
+  width: 1280;
+
+}
+
+/*
+#borderoben {
+  background-color: #FBF333;
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 20px;
+}
+*/
+
+/*
+#borderunten {
+  background-color: #FBF333;
+  position: relative;
+  bottom:0;
+  width: 100%;
+  height: 20px;
+}*/
+
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 10rem;
+  padding: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.logo a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+background-color: none;
+}
+
+.nav li  {
+  text-align: center;
+  display: block;
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+.nav ul {
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration:line-through;
+  color: black;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.imprint {
+background-color: none;
+margin-top: 70px;
+}
+
+.imprint li  {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.imprint ul {
+  padding-inline-start: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+
+#fließtext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 30px;
+}
+
+#imprint-text {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: block;
+}
+
+
+
+.kontaktformular input {
+  border: .5px solid white;
+  font-family: sans-serif;
+  color: black;
+  height: 35px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-bottom: 10px;
+padding-left: 10px;
+
+}
+
+.kontaktformular input::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+.email {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button {
+  height: 35px;
+  width: 15%;
+  background-color: #FBF333;
+  border: none;
+  font: sans-serif;
+  font-size: 1rem;
+  width: 15%;
+
+}
+
+
+#zurueck-btn a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1115px) {
+
+  .logo h1 {
+    font-size: 8rem;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .logo h1 {
+    font-size: 6rem;
+
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  .logo h1 {
+    font-size: 4rem;
+
+  }
+
+}
+
+#lauftext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #FBF333;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  border: none;
+  margin: 0;
+
+}
+
+#borderoben {
+  border: none;
+  margin: 0;
+
+}
+
+
+
+.team {
+  width: 458px;
+  height: 286px;
+  background-image: url("../IMG/team.jpg");
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#zurueck-btn {
+  background-color: #FBF333;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: .8rem;
+  padding: 4px;
+}
+
+ #fließtext a:hover {
+   text-decoration: none;
+ }
