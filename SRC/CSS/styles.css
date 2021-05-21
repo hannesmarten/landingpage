@@ -18,8 +18,8 @@ body {
 #bild {
   background-image: url("../IMG/banner.png");
   background-size: cover;
-  height: 1024px;
-  width: 1280;
+  height: auto;
+  width: 100%;
 
 }
 
