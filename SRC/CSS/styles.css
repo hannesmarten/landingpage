@@ -207,6 +207,25 @@ button {
 
 }
 
+@media (max-width: 425px) {
+
+
+  #lauftext {
+    font-size: 5rem;
+  }
+  .nav li  {
+  padding-bottom: 30px;
+
+  }
+
+  .logo h1 {
+
+    margin: 30px;
+
+  }
+
+}
+
 #lauftext {
   margin-left: auto;
   margin-right: auto;
